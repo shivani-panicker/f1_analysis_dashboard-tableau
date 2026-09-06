@@ -1,11 +1,11 @@
-# 🏎️ Formula 1 Data Analysis Dashboard
+# Formula 1 Data Analysis Dashboard
 
 An end-to-end data analytics project analyzing Formula 1 race data using **Excel, Power Query, and Tableau**.  
 The project explores driver, constructor, and circuit performance across multiple decades of Formula 1 racing.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** Kaggle – Formula 1 World Championship Dataset  
 **Coverage:** 1950 – 2020
@@ -15,15 +15,15 @@ The dataset includes historical data on:
 - Drivers
 - Constructors
 - Circuits
-- Race results
-- Lap times
+- Race Results
+- Lap Times
 - Seasons
 
 Multiple CSV files were combined and transformed into a structured dataset for analysis.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Microsoft Excel**
 - **Power Query**
@@ -33,7 +33,7 @@ Multiple CSV files were combined and transformed into a structured dataset for a
 
 ---
 
-## 🔧 Data Preparation
+## Data Preparation
 
 - Consolidated multiple CSV files into a single Excel workbook.
 - Cleaned and transformed data using **Power Query**:
@@ -49,7 +49,7 @@ Multiple CSV files were combined and transformed into a structured dataset for a
 
 ---
 
-## 📈 Dashboard & Visualizations
+## Dashboard & Visualizations
 
 The dataset was connected to **Tableau** to create an interactive dashboard including:
 
@@ -58,8 +58,8 @@ The dataset was connected to **Tableau** to create an interactive dashboard incl
 - **Circuit Map** – geographic visualization of circuits with race frequency.
 - **Year-over-Year Driver Performance** – shows point changes and percentage difference.
 - **KPI Cards** displaying:
-  - Total races
-  - Total laps
+  - Total Races
+  - Total Laps
   - Drivers
   - Constructors
   - Seasons
@@ -67,7 +67,7 @@ The dataset was connected to **Tableau** to create an interactive dashboard incl
 
 ---
 
-## 🎛️ Interactivity
+## Interactivity
 
 The dashboard includes interactive filters for:
 
@@ -76,24 +76,27 @@ The dashboard includes interactive filters for:
 - Country
 - Constructor
 
-This allows users to dynamically explore performance trends across different eras of Formula 1.
+These filters allow users to dynamically explore performance trends across different eras of Formula 1.
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 - Identifies the most successful drivers and constructors across seasons.
 - Shows how driver performance changes year over year.
 - Highlights circuits that have hosted the most races in F1 history.
+- Enables comparison of driver and constructor performance across different seasons.
 
 ---
 
-## 🚀 Project Outcome
+## Project Outcome
 
 This project demonstrates skills in:
 
-- Data cleaning and transformation
-- Data modeling
-- Feature engineering
-- Dashboard design
-- Interactive data visualization
+- Data Cleaning and Transformation
+- Data Modeling
+- Feature Engineering
+- Dashboard Design
+- Interactive Data Visualization
+- Excel and Power Query
+- Tableau
