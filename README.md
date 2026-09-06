@@ -1,16 +1,24 @@
 # Formula 1 Data Analysis Dashboard
 
-An end-to-end data analytics project analyzing Formula 1 race data using **Excel, Power Query, and Tableau**.  
-The project explores driver, constructor, and circuit performance across multiple decades of Formula 1 racing.
+## Project Overview
 
----
+An end-to-end data analytics project analyzing historical Formula 1 race data using Excel, Power Query, and Tableau. The project explores driver, constructor, and circuit performance across multiple decades of Formula 1 racing.
+
+## Objectives
+
+- Analyze driver performance across seasons.
+- Compare constructor performance based on wins and points.
+- Identify circuits with the highest race frequency.
+- Analyze year-over-year changes in driver performance.
+- Build an interactive dashboard for exploring Formula 1 history.
 
 ## Dataset
 
-**Source:** Kaggle – Formula 1 World Championship Dataset  
-**Coverage:** 1950 – 2020
+- **Source:** Kaggle, Formula 1 World Championship Dataset
+- **Coverage:** 1950-2020
+- **Master Dataset:** 26,759 rows
 
-The dataset includes historical data on:
+The dataset contains historical information on:
 
 - Drivers
 - Constructors
@@ -21,82 +29,87 @@ The dataset includes historical data on:
 
 Multiple CSV files were combined and transformed into a structured dataset for analysis.
 
----
-
 ## Tools & Technologies
 
-- **Microsoft Excel**
-- **Power Query**
-- **Tableau**
-- Data Cleaning & Transformation
-- Data Visualization
+| Tool | Purpose |
+|------|---------|
+| Microsoft Excel | Data storage and analysis |
+| Power Query | Data cleaning and transformation |
+| Tableau | Interactive dashboard and visualization |
+| Data Modeling | Combining relational datasets |
+| Feature Engineering | Creating analytical metrics |
 
----
-
-## Data Preparation
+## Data Cleaning & Transformation
 
 - Consolidated multiple CSV files into a single Excel workbook.
-- Cleaned and transformed data using **Power Query**:
-  - Corrected data types
-  - Handled missing values
-  - Standardized column formats
-- Merged relational tables using ID keys to create a **26,759-row master dataset**.
-- Performed feature engineering including:
-  - Win, Podium, and DNF indicators
-  - Positions gained/lost
+- Corrected data types using Power Query.
+- Handled missing values.
+- Standardized column formats.
+- Merged relational tables using ID keys.
+- Created a 26,759-row master dataset.
+- Engineered additional analytical features:
+  - Win indicators
+  - Podium indicators
+  - DNF indicators
+  - Positions gained or lost
   - Driver age at race
-  - Lap time conversion to seconds
+  - Lap time converted to seconds
 
----
+## Data Analysis
 
-## Dashboard & Visualizations
+The analysis focuses on driver, constructor, circuit, and seasonal performance.
 
-The dataset was connected to **Tableau** to create an interactive dashboard including:
+Key analyses included:
 
-- **Top N Drivers Chart** – compares wins, podiums, and points with a dynamic parameter.
-- **Constructor Performance Chart** – dual-axis chart showing wins and total points.
-- **Circuit Map** – geographic visualization of circuits with race frequency.
-- **Year-over-Year Driver Performance** – shows point changes and percentage difference.
-- **KPI Cards** displaying:
-  - Total Races
-  - Total Laps
-  - Drivers
-  - Constructors
-  - Seasons
-  - Circuits
+- Driver wins, podiums, and points.
+- Constructor wins and total points.
+- Circuit race frequency.
+- Year-over-year driver point changes.
+- Percentage change in driver performance.
+- Driver and constructor comparisons across seasons.
 
----
+## Dashboard
 
-## Interactivity
+The dataset was connected to Tableau to create an interactive Formula 1 dashboard containing:
 
-The dashboard includes interactive filters for:
-
-- Season
-- Driver Name
-- Country
-- Constructor
-
-These filters allow users to dynamically explore performance trends across different eras of Formula 1.
-
----
+- **Top N Drivers Chart:** Compares driver wins, podiums, and points using a dynamic parameter.
+- **Constructor Performance Chart:** Dual-axis visualization comparing wins and total points.
+- **Circuit Map:** Geographic visualization showing circuits and race frequency.
+- **Year-over-Year Driver Performance:** Displays point changes and percentage differences.
+- **KPI Cards:** Total Races, Total Laps, Drivers, Constructors, Seasons, and Circuits.
 
 ## Key Insights
 
-- Identifies the most successful drivers and constructors across seasons.
-- Shows how driver performance changes year over year.
-- Highlights circuits that have hosted the most races in F1 history.
-- Enables comparison of driver and constructor performance across different seasons.
+- Identifies the most successful drivers across Formula 1 seasons.
+- Highlights constructors with the strongest overall performance based on wins and points.
+- Shows how individual driver performance changes across seasons.
+- Identifies circuits that have hosted the highest number of races.
+- Enables comparison of performance across different eras of Formula 1.
 
----
+## Project Structure
 
-## Project Outcome
+```text
+Formula-1-Data-Analysis-Dashboard/
+│
+├── Data/
+│   ├── Raw CSV files
+│   └── Master dataset
+│
+├── Excel/
+│   └── Cleaned and transformed dataset
+│
+├── Power Query/
+│   └── Data transformation workflow
+│
+├── Tableau/
+│   └── Formula 1 Dashboard
+│
+├── Images/
+│   └── Dashboard screenshots
+│
+└── README.md
+```
 
-This project demonstrates skills in:
+## Conclusion
 
-- Data Cleaning and Transformation
-- Data Modeling
-- Feature Engineering
-- Dashboard Design
-- Interactive Data Visualization
-- Excel and Power Query
-- Tableau
+This project demonstrates an end-to-end workflow for transforming historical Formula 1 data into an interactive analytics dashboard. By combining Power Query for data preparation with Tableau for visualization, the project provides insights into driver, constructor, circuit, and seasonal performance across 70 years of Formula 1 racing.
